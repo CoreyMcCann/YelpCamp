@@ -22,8 +22,9 @@ const reviewRoutes = require("./routes/reviews");
 
 const MongoDBStore = require("connect-mongo")(session);
 
-const dbUrl = process.env.DB_URL || 'mongodb://127.0.0.1:27017/yelp-camp'
-// 'mongodb://127.0.0.1:27017/yelp-camp'
+// reverse order for deployment
+const dbUrl = 'mongodb://127.0.0.1:27017/yelp-camp' || process.env.DB_URL 
+
 mongoose.connect(dbUrl);
 
 const db = mongoose.connection;
@@ -148,7 +149,8 @@ app.use((err, req, res, next) => {
     res.status(statusCode).render("error", { err });
 });
 
-const port = process.env.PORT || 3000;
+// reverse the order for deployment
+const port = 3000 || process.env.PORT;
 app.listen(port, () => {
     console.log(`Serving on port ${port}`);
 });
