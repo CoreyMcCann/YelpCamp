@@ -1,42 +1,37 @@
 # YelpCamp
-YelpCamp is a full-stack website project where users can create and review campgrounds. In order to review or create a campground, you must have an account. This project is a part of Colt Steele's web dev bootcamp course on udemy.
+YelpCamp is a full-stack web application where users can create and review campgrounds. In order to review or create a campground, you must have an account. This project is a part of Colt Steele's web development bootcamp course on Udemy.
 
-This project is being created created using Node.js, Express, MongoDB, and Bootstrap. Passport.js is used to handle authentication.
+This project has been created created using Node.js, Express, MongoDB, and Bootstrap. Passport.js is used to handle authentication.
 
 ## Functionalities
-* Everyone can view the camps and reviews without signing up or logging in.
+* Users can view the campgrounds submitted by other people and reviews without signing up or logging in.
 
-* The user will have to login to edit the campground details or any comments.
+* Users will have to login or sign up to create their own campground or leave a review on others
 
-* The user can only edit/delete the campgrounds and comments that they have added.
-
-* All the data will pe persistent and is stored in the awazon cloud.
-
+* Users can only edit/delete the campgrounds and comments that they have added.
 
 ## Technologies Used:
-* HTML5 - markup language for creating web pages and web applications
+* HTML5 - A markup language used to structure and display content on the web.
 
-* CSS3 - used for describing the presentation of a document written in a markup language
+* CSS3 - A stylesheet language used to describe the presentation of a document written in HTML or XML.
 
-* Bootstrap - free and open-source front-end web framework for designing websites and web applications quickly
+* Bootstrap - A free and open-source front-end framework for quickly designing responsive, mobile-first websites and web applications.
 
-* jQuery - cross-platform JavaScript library designed to simplify the client-side scripting of HTML
+* jQuery - A lightweight, cross-platform JavaScript library designed to simplify HTML client-side scripting.
 
-* DOM Manipulation - is a platform and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure, and style of a document
+* DOM Manipulation - Involves using the Document Object Model (DOM) to dynamically access and update the content, structure, and styles of a web document.
 
-* Node.js - pen-source, cross-platform JavaScript run-time environment for executing JavaScript code server-side
+* Node.js - An open-source, cross-platform JavaScript runtime that executes code server-side, enabling scalable network applications.
 
-* Express.js - for building web applications and APIs and connecting middleware
+* Express.js - A minimal and flexible Node.js web framework used for building APIs and web applications through middleware and routing.
 
-* REST - REST (REpresentational State Transfer) is an architectural style for developing web services
+* REST - An architectural style (Representational State Transfer) for designing scalable web services that use standard HTTP methods to manage data.
 
-* MongoDB - open-source cross-platform document-oriented NoSQL database program to store details like users info, campgrounds info and comments
+* MongoDB - An open-source, document-oriented NoSQL database for storing data as JSON-like documents, ideal for managing user details, campground information, and comments.
 
-* PassportJS - authentication middleware for Node.js. Extremely flexible and modular, Passport can be unobtrusively dropped in to any Express-based web application
+* PassportJS - Authentication middleware for Node.js, offering a modular approach to integrating various authentication strategies into Express-based web applications.
 
-* Data Associations - associating user data with the respective campgrounds and comments using reference method
-
-* Heroku - cloud platform as a service used as a web application deployment model
+* Heroku - A cloud Platform as a Service (PaaS) that simplifies the deployment, management, and scaling of web applications.
 
 ## Images
 
